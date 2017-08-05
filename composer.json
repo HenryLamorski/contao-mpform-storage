@@ -1,0 +1,19 @@
+{
+    "name":"henrylamorski/contao-mpform-storage",
+    "description":"Stores Multipage (MP) Formdata in Session and list the data in a FE-Module",
+    "keywords":["contao", "formgenerator","mpform"],
+    "type":"contao-module",
+    "license":"LGPL-3.0+",
+    "authors":[
+	{
+		"name":"Henry Lamorski",
+		"email":"henry.lamorski@mailbox.org",
+		"role":"Developer"
+	}
+    ],
+    "require":{
+        "php": "~5.4 || ~7.0",
+        "contao/core-bundle": "^3.5.2 || ~4.1",
+        "codefog/contao-haste": "~4.15"
+    }
+}
