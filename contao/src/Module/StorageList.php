@@ -4,7 +4,6 @@ use Haste\Frontend\AbstractFrontendModule;
 
 class StorageList extends AbstractFrontendModule
 {
-	
 	protected $strTemplate = 'mod_storage_list';
 	
 	public function compile()

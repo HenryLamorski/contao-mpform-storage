@@ -5,8 +5,7 @@
  */
 $GLOBALS['FE_MOD']['henrylamorski'] = array
 (
-    'hl_liststorage' 	            => 'Henrylamorski\mpformStorage\Module\StorageList'
-    ,
+    'hl_liststorage'	=> 'Henrylamorski\mpformStorage\Module\StorageList',
 );
 
 
