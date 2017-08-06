@@ -12,7 +12,7 @@ ClassLoader::addNamespaces(array
 ClassLoader::addClasses(array
 (
     'Henrylamorski\mpformStorage\Classes\StoreFormData' => 'system/modules/contao-mpform-storage/src/Classes/StoreFormData.php',
-    'Henrylamorski\mpformStorage\Modules\StorageList' => 'system/modules/contao-mpform-storage/src/Modules/StorageList.php',
+    'Henrylamorski\mpformStorage\Module\StorageList' => 'system/modules/contao-mpform-storage/src/Module/StorageList.php',
 ));
 
 /**
@@ -20,6 +20,6 @@ ClassLoader::addClasses(array
  */
 TemplateLoader::addFiles(array
 (
-	'ce_mpformdata'      => 'system/modules/contao-mpform-storage/templates',
+	'mod_storage_list'      => 'system/modules/contao-mpform-storage/templates',
 	
 ));
