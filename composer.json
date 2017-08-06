@@ -15,5 +15,12 @@
         "php": "~5.4 || ~7.0",
         "contao/core-bundle": "^3.5.2 || ~4.1",
         "codefog/contao-haste": "~4.15"
+    },
+    "extra":{
+    "contao": {
+      "sources":{
+        "": "system/modules/contao-mpform-storage"
+      }
     }
+  }
 }
