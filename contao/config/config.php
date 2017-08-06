@@ -3,7 +3,7 @@
 /**
  * Content elements
  */
-$GLOBALS['FE_MOD']['henrylamorski'] = array
+$GLOBALS['FE_MOD']['application'] = array
 (
     'hl_liststorage'	=> 'Henrylamorski\mpformStorage\Module\StorageList',
 );
